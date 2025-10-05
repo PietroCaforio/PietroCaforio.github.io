@@ -69,6 +69,6 @@ defaults:
 #     output: true
 
 # SEO/social
-logo: "/assets/images/pietro.jpg"
+
 feed:
   path: feed.xml
