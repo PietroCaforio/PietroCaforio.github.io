@@ -5,7 +5,7 @@ title: Home
 {% include topbar.html %}
 <div class="hero">
   <figure class="portrait">
-    <img src="{{ '/assets/img/pietro.jpg' | relative_url }}" alt="Pietro Caforio">
+    <img src="{{ '/assets/img/pietro.png' | relative_url }}" alt="Pietro Caforio">
   </figure>
   <div>
     <h1>Pietro Caforio</h1>
