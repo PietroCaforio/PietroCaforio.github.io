@@ -4,10 +4,9 @@ baseurl: ""   # keep empty for user site
 url: "https://PietroCaforio.github.io"
 
 # Use a remote theme so GH builds everything (no local Ruby needed)
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+plugins: [jekyll-include-cache, jekyll-feed, jekyll-seo-tag, jekyll-remote-theme]
+
 
 # Navigation (appears as links)
 header_pages:
