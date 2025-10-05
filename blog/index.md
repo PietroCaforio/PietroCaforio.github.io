@@ -3,6 +3,7 @@ layout: page
 title: Blog
 permalink: /blog/
 ---
+{% include topbar.html %}
 
 <ul>
   {% for post in site.posts %}

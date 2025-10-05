@@ -1,8 +1,9 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+{% include topbar.html %}
 
 I’m a PhD student in Computer Science at the University of Fribourg (Switzerland), within the **eXascale Infolab**.  
 My doctoral work focuses on **Extreme Multi-Label Classification**: scalable architectures, label semantics, long-tail issues, and evaluation.
