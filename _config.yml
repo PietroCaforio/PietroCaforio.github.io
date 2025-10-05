@@ -1,0 +1,31 @@
+title: "Pietro Caforio"
+description: "PhD Student in Computer Science — Extreme Multi-Label Classification"
+baseurl: ""   # keep empty for user site
+url: "https://<your-username>.github.io"
+
+# Use a remote theme so GH builds everything (no local Ruby needed)
+remote_theme: pages-themes/minimal@v0.2.0
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Navigation (appears as links)
+header_pages:
+  - about.md
+  - blog/index.md
+
+# Math/Code options
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+
+# Author
+author:
+  name: "Pietro Caforio"
+  email: "you@example.com"
+
+# Social (optional, helps SEO)
+github_username: PietroCaforio
+linkedin: pietro-caforio
