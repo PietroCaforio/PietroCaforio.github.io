@@ -1,0 +1,13 @@
+---
+# Let Jekyll compile this file
+---
+
+@import "minimal-mistakes";
+
+/* Make Academicons behave like Font Awesome's fa-fw */
+.ai.ai-fw {
+  display: inline-block;
+  width: 1.25em;     /* same width FA uses for fa-fw */
+  text-align: center;
+  vertical-align: -.125em; /* tiny tweak to align baselines nicely */
+}
