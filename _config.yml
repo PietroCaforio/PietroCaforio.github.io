@@ -42,7 +42,7 @@ author:
       icon: "ai ai-orcid"
       url: "https://orcid.org/0009-0006-1702-2646"
     - label: "CV (PDF)"
-      icon: "ai ai-file"
+      icon: "fas fa-file-pdf"
       url: "/assets/cv/Pietro-Caforio-CV.pdf"
 
 
