@@ -24,26 +24,23 @@ plugins:
 
 # Author profile (shown on Home)
 author:
-  name: "Pietro Caforio"
-  avatar: "/assets/images/pietro.jpg"  # <-- put your image here
-  bio: "PhD student @ eXascale Infolab (Univ. of Fribourg). Research: Extreme Multi-Label Classification (XMLC)."
-  location: "Fribourg, Switzerland"
   links:
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fab fa-fw fa-github"
       url: "https://github.com/PietroCaforio"
     - label: "LinkedIn"
-      icon: "fab fa-linkedin"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/pietro-caforio/"
     #- label: "Google Scholar"
-    #  icon: "fa-brands fa-google-scholar"
+    #  icon: "ai ai-google-scholar"
     #  url: "https://scholar.google.com/"
     - label: "ORCID"
-      icon: "fa-brands fa-orcid"
+      icon: "ai ai-orcid"
       url: "https://orcid.org/0009-0006-1702-2646"
     - label: "CV (PDF)"
-      icon: "fa-solid fa-file"
+      icon: "ai ai-cv"
       url: "/assets/cv/Pietro-Caforio-CV.pdf"
+
 
 # Defaults (nice MM layouts)
 defaults:
