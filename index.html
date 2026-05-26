@@ -1,0 +1,19 @@
+---
+layout: default
+title : Homepage
+navbar_title: Home
+---
+
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+<div class="row">
+    <div class="col-lg-3 col-md-4">
+        {% include widgets/profile_card_mini.html %}
+    </div>
+    <div class="col-lg-9 col-md-8">
+
+        {% include widgets/profile_card_bio_only.html %}
+
+        {% include widgets/publication_card.html publications=pubs title='<i class="fas fa-book"></i> Publications' show_links=false %}
+    </div>
+</div>
