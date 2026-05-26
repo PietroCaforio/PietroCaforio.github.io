@@ -6,8 +6,9 @@ positions:
   - name: PhD Student in Computer Science
   - name: University of Fribourg, eXascale Infolab
 
-email:
+email: "caforiop@exascale.info"
 cv_link: /assets/cv/Pietro-Caforio-CV.pdf
+gscholar: "https://scholar.google.com/scholar?q=author:%22Pietro+Caforio%22"
 github: PietroCaforio
 linkedin: pietro-caforio
 orcid: 0009-0006-1702-2646
@@ -15,13 +16,10 @@ orcid: 0009-0006-1702-2646
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a PhD student in Computer Science at the University of Fribourg, where I work within the
-    <a href="https://exascale.info/" target="_blank">eXascale Infolab</a>.
+    I am a PhD student in Computer Science at the University of Fribourg, where I work within the <a href="https://exascale.info/" target="_blank">eXascale Infolab</a>.
   </p>
   <p>
-    My research focuses on Extreme Multi-Label Classification (XMLC), taxonomy-aware learning, and
-    multimodal learning. Previously, I completed an MSc at Politecnico di Milano, working on
-    multimodal deep learning for survival prediction.
+    My research focuses on Extreme Multi-Label Classification (XMLC), taxonomy-aware learning, and multimodal learning. Previously, I completed an MSc at Politecnico di Milano, working on multimodal deep learning for survival prediction.
   </p>
 
-portrait_url: /assets/images/pietro.jpg
+portrait_url: /assets/images/pietro.png
