@@ -34,6 +34,7 @@
                     </div>
                 </div>
 
+                {% if site.data.profile.email %}
                 <div class="row small">
                     <div class="col text-center">
                         <a class="email-text" href="mailto:{{ site.data.profile.email | encode_email }}">
@@ -41,6 +42,7 @@
                         </a>
                     </div>
                 </div>
+                {% endif %}
 
                 <div class="row pt-2">
                     <div class="col text-center h4">
