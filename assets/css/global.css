@@ -174,3 +174,7 @@ div.lazy {
         opacity: 0.6;
     }
 }
+
+.shadow-sm {
+  box-shadow: none !important;
+}
