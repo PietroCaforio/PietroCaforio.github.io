@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- Template: https://github.com/luost26/academic-homepage -->
+{% assign asset_version = site.time | date: "%s" %}
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}?v={{ asset_version }}">
 </head>
 <body class="bg-light" {{ page.body_attr }}>
-    <canvas class="neural-bg" aria-hidden="true"></canvas>
+    <canvas class="neural-bg" aria-hidden="true" style="position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;"></canvas>
     {% include navbar.html %}
     <main class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %} page-content">
         {{content}}
@@ -45,9 +46,9 @@
             });
         });
     </script>
-    <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/neural_background.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/semantic_scholar_citation_count.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/common.js' | relative_url }}?v={{ asset_version }}"></script>
+    <script src="{{ '/assets/js/neural_background.js' | relative_url }}?v={{ asset_version }}"></script>
+    <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}?v={{ asset_version }}"></script>
+    <script src="{{ '/assets/js/semantic_scholar_citation_count.js' | relative_url }}?v={{ asset_version }}"></script>
 </body>
 </html>
