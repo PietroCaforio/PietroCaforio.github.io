@@ -17,10 +17,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 </head>
 <body class="bg-light" {{ page.body_attr }}>
+    <canvas class="neural-bg" aria-hidden="true"></canvas>
     {% include navbar.html %}
-    <div class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %}">
+    <main class="{% if page.container_class %}{{ page.container_class }}{% else %}container-lg{% endif %} page-content">
         {{content}}
-    </div>
+    </main>
     {% include footer.html %}
 
     <!-- Scripts -->
@@ -45,6 +46,7 @@
         });
     </script>
     <script src="{{ '/assets/js/common.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/neural_background.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/bubble_visual_hash.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/semantic_scholar_citation_count.js' | relative_url }}"></script>
 </body>
