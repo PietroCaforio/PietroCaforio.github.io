@@ -3,8 +3,8 @@ secondary_name: ""
 navbar_name: "Pietro Caforio"
 
 positions:
-  - name: PhD Student in Computer Science
-  - name: University of Fribourg, eXascale Infolab
+  - name: PhD Student 
+  - name: eXascale Infolab
 
 email: "caforiop@exascale.info"
 cv_link: /assets/cv/Pietro-Caforio-CV.pdf

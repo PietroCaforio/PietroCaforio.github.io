@@ -1,6 +1,6 @@
 @charset "utf-8";
 body {
-    font-family: "Lato", sans-serif;
+    font-family: "IBM Plex Sans", sans-serif; 
     font-weight: 400;
     padding-top: 5.0rem;
 }
@@ -90,4 +90,18 @@ div.lazy {
 
 .email-text {
     font-family: Source Code Pro, monospace;
+}
+
+.profile-portrait {
+    border-radius: 0.5rem;
+}
+
+a {
+  color: #008d84;
+}
+
+a:hover,
+a:focus {
+  color: #008d84;
+  text-decoration: none;
 }
